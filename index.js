@@ -31,6 +31,7 @@ function init() {
         }
         var newLink = document.createElement("a");
         newLink.href = news.url;
+        newLink.traget = "blank";
         var newTitle = document.createElement("h2");
         newTitle.classList.add("news-card__title");
         newTitle.innerText = news.title;

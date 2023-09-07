@@ -7,7 +7,7 @@ function init() {
   var articleContainer = document.querySelector(".articles__container");
 
   fetch(
-    "http://api.mediastack.com/v1/news?access_key=631d8dd7f6ea4629aa9d485d88909f9a",
+    "https://proxy-for-test-2023.hkupootal.com/?q=http%3A%2F%2Fapi.mediastack.com%2Fv1%2Fnews%3Faccess_key%3D631d8dd7f6ea4629aa9d485d88909f9a",
     {
       redirect: "manual",
     }

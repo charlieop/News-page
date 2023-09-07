@@ -7,7 +7,7 @@ function init() {
   var articleContainer = document.querySelector(".articles__container");
 
   fetch(
-    // "http://api.mediastack.com/v1/news?access_key=631d8dd7f6ea4629aa9d485d88909f9a",
+    "http://api.mediastack.com/v1/news?access_key=631d8dd7f6ea4629aa9d485d88909f9a",
     {
       redirect: "manual",
     }
